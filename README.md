@@ -1,6 +1,6 @@
 # game-player
 
-Character Class for Unity 3D: To see these scripts in action, check out my game "Light Polymer" at https://alvarengajulio.itch.io/lightpolymer-demo
+To see these scripts in action, check out my game "Light Polymer" at https://alvarengajulio.itch.io/lightpolymer-demo
 
 The Character class can be used by any humanoid-rigged model, as long as an Animator and Character Controller component are attached.
 
