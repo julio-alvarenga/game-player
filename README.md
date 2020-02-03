@@ -1,6 +1,6 @@
 # game-player
 
-To see these scripts in action, check out my game "Light Polymer" at https://alvarengajulio.itch.io/lightpolymer-demo
+**To see these scripts in action**, check out my game "Light Polymer" at https://alvarengajulio.itch.io/lightpolymer-demo
 
 These 3 classes work together to make an in-game character feel alive. The Locomotion class moves the player, while the Action class animates them. Combine them and you can make a humanoid model move around the world.
 
