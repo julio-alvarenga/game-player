@@ -2,8 +2,6 @@
 
 To see these scripts in action, check out my game "Light Polymer" at https://alvarengajulio.itch.io/lightpolymer-demo
 
-The Character class can be used by any humanoid-rigged model, as long as an Animator and Character Controller component are attached.
-
 The Action class contains the Animator and the Locomotion class contains the Character Controller.
 
 The Animator controls animations (like walking or jumping) while the Character Controller changes the player's location in the world.
