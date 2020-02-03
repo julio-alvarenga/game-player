@@ -1,6 +1,7 @@
 ﻿/*
- * Action class contains an Animator and values used by the Animator to change animations (represented as a state machine)
- * Functions here are mostly just getters and setters. The Animator changes states based on values, so update the values to get the animations to change
+ * Action class contains an Animator, and fields used by the Animator that change animations
+ * Animations are represented as a state machine. Animations exist as states, ie "Idle", "Run", and "Jump" are states
+ * Animator changes states based on values, use these setters to update the values which then change animations
  */ 
 
 using System.Collections;
@@ -28,7 +29,7 @@ public class Action
     //to be called in Update by Character class
     public void Animate(float vn, byte input, float d, bool g, float vv, float s) {
 
-        //chnages the values that are stored here, primarily used by outside classes
+        //these functions update the values...
         SetVelocityNormalized(vn);
         SetVerticalVelocity(vv);
         SetButtonByte(input);
@@ -36,7 +37,7 @@ public class Action
         SetGrounded(g);
         SetSensitivity(s);
 
-	//these functions reflect the changes on to the Animator
+	//... these functions reflect the changes to the Animator
         SetFloats();
         SetBools();
     }
