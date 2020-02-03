@@ -1,4 +1,4 @@
-# game-player
+# game movement and animation
 
 **To see these scripts in action**, check out my game "Light Polymer" at https://alvarengajulio.itch.io/lightpolymer-demo
 
