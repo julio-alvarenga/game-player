@@ -12,7 +12,7 @@ public class Locomotion
     CharacterController cc;
 
     float gravity_influnce = 10.0f;
-    byte c_speed, m_speed, weight; //usually stored as integers, but speed and weight values will never surpass ~50 so efficient to store as a byte
+    byte c_speed, m_speed, weight; //usually stored as integers, but speed and weight values will never surpass ~50. more efficient to store as a byte
     float s_influence, velocity;
 
     bool exhausted;
