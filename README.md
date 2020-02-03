@@ -1,4 +1,4 @@
-# game movement and animation
+# Video Game Movement
 
 **To see these scripts in action**, check out my game "Light Polymer" at https://alvarengajulio.itch.io/lightpolymer-demo
 
