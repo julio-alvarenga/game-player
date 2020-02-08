@@ -5,7 +5,7 @@
  * The Animator component controls the changing of animation states (ie decides when to play the walk or run animation) 
  * The Character Controller component controls the location of the pilot and how to change the location
  *
- * The Character class acts a link between both, passing values from the Character Controller to the Animator
+ * The Character class acts as a link between both, passing values from the Character Controller to the Animator
  * 
  * The Locomotion class contains the Character Controller and functions used to determine movement
  * The Action class contains the Animator and functions used to change values in the Animator
